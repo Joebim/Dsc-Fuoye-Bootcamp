@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-img {
+    background-image: linear-gradient(rgba(32, 12, 109, 0.7), rgba(32, 12, 109, 0.7)), url(../img/background.jpg);
+    height:570px;
+}
+
+.navbar {
+    flex-direction: row;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #EA9B24;
+}
+
+.navbar-light .navbar-toggler {
+    outline: none;
+}
+
+.collapse ul button {
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(234, 155, 36);
+    border-image: initial;
+}
+
+.container button {
+    background-color: #EA9B24;
+    border: none;
+}
+
+.reviews {
+    position: relative;
+    background-image: url(../img/testimonial.png);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(32, 12, 109, 0.5);
+}
+
+.reviews h3 {
+    position: relative;
+    z-index: 5;
+}
+
+.review-content {
+    position: relative;
+    z-index: 10;
+}
+
+.reviews img {
+    height: 55px;
+}
+
+.form-group {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.form-group input {
+    height: 40px;
+    
+}
+
+.form-group button {
+    color: white;
+    height: 40px;
+    width: 110px;
+    background-color: #EA9B24;
+    text-decoration: none;
+    margin-left: 20px;
+    border: none;
+}
+
+footer {
+    background-color: #200C6D;
+    height: 360px;
+}
+
+footer ul li a {
+    font-size: 18px;
+    color: white ;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+::marker {
+    color: transparent;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+}
